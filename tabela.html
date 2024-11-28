@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dane Przeglądarek Internetowych</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: brown;
+            color: white;
+        }
+        td:nth-child(1) {
+            color: green;
+        }
+        td:nth-child(2), td:nth-child(3) {
+            background-color: #e5e5ff;
+        }
+        td:nth-child(4) {
+            background-color: #d9effa;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Dane Przeglądarek Internetowych - Michał Ponomarenko 1P 2G</caption>
+        <thead>
+            <tr>
+                <th>Nazwa Przeglądarki</th>
+                <th>Licencja</th>
+                <th>Przeglądarka Sprzętowa</th>
+                <th>Języki Programowania</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>FireFox</td>
+                <td>MPL[1]</td>
+                <td>x86, x86-64, ARM</td>
+                <td>C, C++, Javascript, CSS, Rust, XBL, XUL</td>
+            </tr>
+            <tr>
+                <td>Opera GX</td>
+                <td>freeware</td>
+                <td>x86 i x64</td>
+                <td>C++</td>
+            </tr>
+            <tr>
+                <td>Safari</td>
+                <td>EULA[1], BSD[2], LGPL[3]</td>
+                <td>Macintosh, PC, iPhone, iPodTouch, iPad</td>
+                <td>C++, Objective-C</td>
+            </tr>
+            <tr>
+                <td>Tor</td>
+                <td>licencja BSD</td>
+                <td>x86, x64</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>Microsoft Edge</td>
+                <td>zamknięte</td>
+                <td>x86, x64, ARM</td>
+                <td>UWP (C# + XAML)</td>
+            </tr>
+            <tr>
+                <td>Google Chrome</td>
+                <td>EULA[1], BSD[2]</td>
+                <td>Wielo-platformowe</td>
+                <td>asembler, C/C++, JavaScript, Python, Java</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
